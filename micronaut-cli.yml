@@ -1,0 +1,6 @@
+applicationType: grpc
+defaultPackage: com.genom
+testFramework: kotest
+sourceLanguage: kotlin
+buildTool: gradle_kotlin
+features: [annotation-api, app-name, config4k, gradle, grpc, jackson-databind, kotest, kotlin, kotlin-application, kotlin-build, kotlin-extension-functions, logback, micronaut-build, readme, shade]

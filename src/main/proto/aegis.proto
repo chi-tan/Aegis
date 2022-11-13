@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.genom";
+option java_outer_classname = "Aegis";
+option objc_class_prefix = "HLW";
+
+package com.genom;
+
+service AegisService {
+  rpc send (AegisRequest) returns (AegisReply) {}
+}
+
+message AegisRequest {
+  string name = 1;
+}
+
+message AegisReply {
+  string message = 1;
+}
